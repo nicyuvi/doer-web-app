@@ -21,6 +21,7 @@ Live Project: https://doer.netlify.app/
 The header section allows you to enter your name to personalize the app which is then saved in local storage. This section also displays an inspirational quote, local weather, and local time.
 
 ![Image of Header](images\header-img.PNG)
+<img src="./images/header-img.PNG">
 
 ## Todo-List
 
