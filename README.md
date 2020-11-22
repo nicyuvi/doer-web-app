@@ -20,20 +20,19 @@ Live Project: https://doer.netlify.app/
 
 The header section allows you to enter your name to personalize the app which is then saved in local storage. This section also displays an inspirational quote, local weather, and local time.
 
-![Image of Header](images\header-img.PNG)
-<img src="./images/header-img.PNG">
+<img alt="Image of Header" src="./images/header-img.PNG">
 
 ## Todo-List
 
 The todo-list widget features a fully functional todo-list complete with task add/remove and task complete/incomplete toggle.
 
-![Image of Todo List](images\todo-list-img.PNG)
+<img alt="Image of Todo List" src="./images/todo-list-img.PNG">
 
 ## Notes
 
 The notes widget features a modal popup with resizable text input field and an expand/collapse toggle.
 
-![Image of Notes Widget](images\notes-img.PNG)
+<img alt="Image of Notes Widget" src="./images/notes-img.PNG">
 
 ## Pomodoro Timer
 
@@ -41,9 +40,11 @@ This timer widget features a 25 minute timer which alerts users after the timer 
 
 [Read about the Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique)
 
+<img alt="Image of Timer Widget" src="./images/timer-img.PNG">
+
 ## Responsive Layout
 
 This web application features a responsive layout.
 
-![Image of Desktop View](images\desktop-view-img.PNG)
-![Image of Mobile View](images\mobile-view-img.PNG)
+<img alt="Image of Desktop View" src="./images/desktop-view-img.PNG">
+<img alt="Image of Mobile View" src="./images/mobile-view-img.PNG">
