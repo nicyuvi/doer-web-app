@@ -345,3 +345,15 @@ h6 {
   background-color: var(--dark-purple);
 }
 /* End Swal Alert */
+
+/* ========
+    Footer
+============*/
+#footer .social-links a i:hover {
+  transform: translateY(-3px);
+  color: var(--med-purple);
+  transition: all 0.3s ease-in-out;
+}
+/* ========
+    End Footer
+============*/
