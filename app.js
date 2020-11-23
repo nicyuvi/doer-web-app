@@ -212,23 +212,21 @@ function addTodo() {
 }
 
 function removeCheckTodo(event) {
-  if (event.target.id == 'btnPrepend') {
+  var target = event.target;
+  var listItem = target.parentNode;
+  if (target.id == 'btnPrepend') {
     //remove targeted todo item
-    let target = event.target.parentNode;
-    todoContainer.removeChild(target);
+    todoContainer.removeChild(listItem);
     localStorage.setItem('todo items', todoContainer.innerHTML);
-  } else if (event.target.id == 'todo-list-item') {
+  } else if (target.id == 'todo-list-item') {
     //toggle cross out list item
-    let listItem = event.target.firstElementChild;
-    listItem.classList.toggle('strike');
-    event.target.classList.toggle('background-color');
+    target.classList.toggle('strike');
+    target.classList.toggle('background-color');
     //Store list items with strike class in local storage
     localStorage.setItem('todo items', todoContainer.innerHTML);
-  } else if (event.target.id == 'list-item-text') {
-    let target = event.target;
-
-    target.classList.toggle('strike');
-    target.parentElement.classList.toggle('background-color');
+  } else if (target.id == 'list-item-text') {
+    listItem.classList.toggle('strike');
+    listItem.classList.toggle('background-color');
     localStorage.setItem('todo items', todoContainer.innerHTML);
   }
 }
